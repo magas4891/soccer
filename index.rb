@@ -1,26 +1,23 @@
 require_relative 'game.rb'
-require_relative 'team.rb'
-
 
 f = IO.readlines('sample.txt', chomp: true)
 
-#print f
+team = {}
 
-team = []
+arr = []
 
 f.each do |x|
-  game = Game.new(x.split(', ')[0][0..-3], x.split(', ')[1][0..-3], x.split(', ')[0][-1], x.split(', ')[1][-1]).foo
-  # puts x.split(', ')[0][0..-3]
-  # puts x.split(', ')[1][0..-3]
-  #team = Team.new(puts x.split(', ')[0][0..-3]).foo1
-  team.append(x.split(', ')[0][0..-3])
-  team.append(x.split(', ')[1][0..-3])
-
+  arr.append(Game.new(x).foo)
+  team[x.split(', ')[0][0..-3]] = 0
+  team[x.split(', ')[1][0..-3]] = 0
 end
 
-team.uniq!
+arr.each {|x| x.each { |key, value| team[key] += value } }
 
-team.each {|x| Team.new(x)}
+output = team.sort_by{|k, v| v}.reverse
 
+output.each do |x|
+  puts "#{x[0]}, #{x[1]} pts."
+end
 
 
