@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95b6ec7f-3f67-412c-8558-8b45a7f33bd8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.rb" beforeDir="false" afterPath="$PROJECT_DIR$/game.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.rb" beforeDir="false" afterPath="$PROJECT_DIR$/index.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.rb" beforeDir="false" />
-    </list>
+    <list default="true" id="95b6ec7f-3f67-412c-8558-8b45a7f33bd8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,12 +139,12 @@
       <updated>1562079515090</updated>
       <workItem from="1562079516610" duration="1259000" />
       <workItem from="1562136211307" duration="26353000" />
-      <workItem from="1562225650325" duration="9912000" />
+      <workItem from="1562225650325" duration="10230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37524000" />
+    <option name="totallyTimeSpent" value="37842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1442" height="845" extended-state="6" />
