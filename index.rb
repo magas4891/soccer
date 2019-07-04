@@ -1,10 +1,15 @@
+# frozen_string_literal: true
+
 require_relative 'game.rb'
 
-f = IO.readlines('sample.txt', chomp: true)
+puts 'Введите название файла'
+filename = gets.chomp.to_s
+
+f = IO.readlines(filename, chomp: true)
 
 team = {}
-
 arr = []
+count = 1
 
 f.each do |x|
   arr.append(Game.new(x).foo)
@@ -12,12 +17,11 @@ f.each do |x|
   team[x.split(', ')[1][0..-3]] = 0
 end
 
-arr.each {|x| x.each { |key, value| team[key] += value } }
+arr.each { |x| x.each { |key, value| team[key] += value } }
 
-output = team.sort_by{|k, v| v}.reverse
+output = team.sort_by { |k, v| [-v, k] }
 
 output.each do |x|
-  puts "#{x[0]}, #{x[1]} pts."
+  puts "#{count}. #{x[0]} - #{x[1]} pts."
+  count += 1
 end
-
-
