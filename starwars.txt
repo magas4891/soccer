@@ -1,0 +1,16 @@
+Luke Skywalker 2, Leia Organa 3
+R2-D2 0, Darth Vader 8
+Padmé Amidala 1, Darth Sidious 1
+Han Solo 4, Yoda 3
+Luke Skywalker 1, Darth Sidious 4
+Han Solo 0, R2-D2 3
+Leia Organa 7, Darth Sidious 6
+Padmé Amidala 2, Leia Organa 1
+Luke Skywalker 4, Yoda 3
+Darth Vader 3, Luke Skywalker 5
+Ahsoka Tano 2, Asajj Ventress 3
+Luke Skywalker 4, Asajj Ventress 3
+R2-D2 1, Ahsoka Tano 1
+Watto 4, Darth Vader 2
+Leia Organa 0, Ahsoka Tano 4
+Luke Skywalker 3, Watto 5
